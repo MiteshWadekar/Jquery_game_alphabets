@@ -1,0 +1,654 @@
+<html>
+	<head>
+		<title>MyFlip</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="E:\JQpractice\jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var current = 65;
+			$("#B").click(function(){
+					$("#B").attr("src","B.jpg");
+					$("#B").fadeOut(500,function(){
+					var data = $("#B").attr("value");
+					var B = data.charCodeAt(data);
+					data = B - 1;
+					if((current == data))
+					{
+						current = B;
+						$("#B").fadeIn(500);
+						$("#B").attr("value","1");	
+					}
+					else if($("#B").attr("value") == "1")
+					{
+						$("#B").fadeIn(500);
+					}
+					else
+					{
+						$("#B").attr("src","pic.png");
+						$("#B").fadeIn(500);		
+					}
+				});
+			});
+			
+
+			$("#C").click(function(){
+				$("#C").attr("src","C.jpg");
+				$("#C").fadeOut(500,function(){
+					var data = $("#C").attr("value");
+					var C = data.charCodeAt(data);
+					data = C - 1;
+					if((current == data))
+					{
+						current = C;
+						$("#C").fadeIn(500);
+						$("#C").attr("value","1");
+					}
+					else if($("#C").attr("value") == "1")
+					{
+						$("#C").fadeIn(500);
+					}
+					else
+					{
+						$("#C").attr("src","pic.png");
+						$("#C").fadeIn(500);
+					}
+				});
+
+			});
+
+			$("#D").click(function(){
+				$("#D").attr("src","D.jpg");
+				$("#D").fadeOut(500,function(){
+					var data = $("#D").attr("value");
+					var D = data.charCodeAt(data);
+					data = D - 1;
+					if((current == data))
+					{
+						current = D;
+						$("#D").fadeIn(500);
+						$("#D").attr("value","1");
+					}
+					else if($("#D").attr("value") == "1")
+					{
+						$("#D").fadeIn(500);
+					}
+					else
+					{
+						$("#D").attr("src","pic.png");
+						$("#D").fadeIn(500);
+					}
+				});
+
+			});
+
+			$("#E").click(function(){
+				$("#E").attr("src","E.jpg");
+				$("#E").fadeOut(500,function(){
+					var data = $("#E").attr("value");
+					 var E = data.charCodeAt(data);
+					data = E - 1;
+					if((current == data)) 
+					{
+						current = E;
+						$("#E").fadeIn(500);
+						$("#E").attr("value","1");
+					}
+					else if($("#E").attr("value") == "1")
+					{
+						$("#E").fadeIn(500);
+					}
+					else
+					{
+						$("#E").attr("src","pic.png");
+						$("#E").fadeIn(500);
+					}
+				});
+
+			});
+
+			
+			$("#F").click(function()
+			{
+				$("#F").attr("src","F.jpg");
+				$("#F").fadeOut(500,function()
+				{
+					var data = $("#F").attr("value");
+					var F = data.charCodeAt(data);
+					data = F - 1;
+					if((current == data))
+					{
+						current = F;
+						$("#F").fadeIn(500);
+						$("#F").attr("value","1");
+					}
+					else if($("#F").attr("value") == "1")
+					{
+						$("#F").fadeIn(500);
+					}
+					else
+					{
+						$("#F").attr("src","pic.png");
+						$("#F").fadeIn(500);
+					}
+				});	
+			});
+
+				$("#G").click(function(){
+				$("#G").attr("src","G.jpg");
+				$("#G").fadeOut(500,function(){
+					var data = $("#G").attr("value");
+					var G = data.charCodeAt(data);
+					data = G - 1;
+					if((current == data))
+					{
+						current = G;
+						$("#G").fadeIn(500);
+						$("#G").attr("value","1");
+					}
+					else if($("#G").attr("value") == "1")
+					{
+						$("#G").fadeIn(500);
+					}
+					else
+					{
+						$("#G").attr("src","pic.png");
+						$("#G").fadeIn(500);
+					}
+				});
+			});	
+
+				$("#H").click(function(){
+				$("#H").attr("src","H.jpg");
+				$("#H").fadeOut(500,function(){
+					var data = $("#H").attr("value");
+					var H = data.charCodeAt(data);
+					data = H - 1;
+					if((current == data))
+					{
+						current = H;
+						$("#H").fadeIn(500);
+						$("#H").attr("value","1");
+					}
+					else if($("#H").attr("value") == "1")
+					{
+						$("#H").fadeIn(500);
+					}
+					else
+					{
+						$("#H").attr("src","pic.png");
+						$("#H").fadeIn(500);
+					}
+				});
+			});	
+
+
+			$("#I").click(function(){
+				$("#I").attr("src","I.jpg");
+				$("#I").fadeOut(500,function(){
+					var data = $("#I").attr("value");
+					var I = data.charCodeAt(data);
+					data = I - 1;
+					if((current == data))
+					{
+						current = I;
+						$("#I").fadeIn(500);
+						$("#I").attr("value","1");
+					}
+					else if($("#I").attr("value") == "1")
+					{
+						$("#I").fadeIn(500);
+					}
+					else
+					{
+						$("#I").attr("src","pic.png");
+						$("#I").fadeIn(500);
+					}
+				});
+			});		
+
+
+			$("#J").click(function(){
+				$("#J").attr("src","J.jpg");
+				$("#J").fadeOut(500,function(){
+					var data = $("#J").attr("value");
+					var J = data.charCodeAt(data);
+					data = J - 1;
+					if((current == data))
+					{
+						current = J;
+						$("#J").fadeIn(500);
+						$("#J").attr("value","1");
+					}
+					else if($("#J").attr("value") == "1")
+					{
+						$("#J").fadeIn(500);
+					}
+					else
+					{
+						$("#J").attr("src","pic.png");
+						$("#J").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#K").click(function(){
+				$("#K").attr("src","K.jpg");
+				$("#K").fadeOut(500,function(){
+					var data = $("#K").attr("value");
+					var K = data.charCodeAt(data);
+					data = K - 1;
+					if((current == data))
+					{
+						current = K;
+						$("#K").fadeIn(500);
+						$("#K").attr("value","1");
+					}
+					else if($("#K").attr("value") == "1")
+					{
+						$("#K").fadeIn(500);
+					}
+					else
+					{
+						$("#K").attr("src","pic.png");
+						$("#K").fadeIn(500);
+					}
+				});
+			});			
+
+			$("#L").click(function(){
+				$("#L").attr("src","L.jpg");
+				$("#L").fadeOut(500,function(){
+					var data = $("#L").attr("value");
+					var L = data.charCodeAt(data);
+					data = L - 1;
+					if((current == data))
+					{
+						current = L;
+						$("#L").fadeIn(500);
+						$("#L").attr("value","1");
+					}
+					else if($("#L").attr("value") == "1")
+					{
+						$("#L").fadeIn(500);
+					}
+					else
+					{
+						$("#L").attr("src","pic.png");
+						$("#L").fadeIn(500);
+					}
+				});
+			});			
+
+			$("#M").click(function(){
+				$("#M").attr("src","M.jpg");
+				$("#M").fadeOut(500,function(){
+					var data = $("#M").attr("value");
+					var M = data.charCodeAt(data);
+					data = M - 1;
+					if((current == data))
+					{
+						current = M;
+						$("#M").fadeIn(500);
+						$("#M").attr("value","1");
+					}
+					else if($("#M").attr("value") == "1")
+					{
+						$("#M").fadeIn(500);
+					}
+					else
+					{
+						$("#M").attr("src","pic.png");
+						$("#M").fadeIn(500);
+					}
+				});
+			});			
+
+			$("#N").click(function(){
+				$("#N").attr("src","N.jpg");
+				$("#N").fadeOut(500,function(){
+					var data = $("#N").attr("value");
+					var N = data.charCodeAt(data);
+					data = N - 1;
+					if((current == data))
+					{
+						current = N;
+						$("#N").fadeIn(500);
+						$("#N").attr("value","1");
+					}
+					else if($("#N").attr("value") == "1")
+					{
+						$("#N").fadeIn(500);
+					}
+					else
+					{
+						$("#N").attr("src","pic.png");
+						$("#N").fadeIn(500);
+					}
+				});
+			});		
+
+			$("#O").click(function(){
+				$("#O").attr("src","O.jpg");
+				$("#O").fadeOut(500,function(){
+					var data = $("#O").attr("value");
+					var O = data.charCodeAt(data);
+					data = O - 1;
+					if((current == data))
+					{
+						current = O;
+						$("#O").fadeIn(500);
+						$("#O").attr("value","1");
+					}
+					else if($("#O").attr("value") == "1")
+					{
+						$("#O").fadeIn(500);
+					}
+					else
+					{
+						$("#O").attr("src","pic.png");
+						$("#O").fadeIn(500);
+					}
+				});
+			});			
+
+			$("#P").click(function(){
+				$("#P").attr("src","P.jpg");
+				$("#P").fadeOut(500,function(){
+					var data = $("#P").attr("value");
+					var P = data.charCodeAt(data);
+					data = P - 1;
+					if((current == data))
+					{
+						current = P;
+						$("#P").fadeIn(500);
+						$("#P").attr("value","1");
+					}
+					else if($("#P").attr("value") == "1")
+					{
+						$("#P").fadeIn(500);
+					}
+					else
+					{
+						$("#P").attr("src","pic.png");
+						$("#P").fadeIn(500);
+					}
+				});
+			});			
+
+			$("#P").click(function(){
+				$("#P").attr("src","P.jpg");
+				$("#P").fadeOut(500,function(){
+					var data = $("#P").attr("value");
+					var P = data.charCodeAt(data);
+					data = P - 1;
+					if((current == data))
+					{
+						current = P;
+						$("#P").fadeIn(500);
+						$("#P").attr("value","1");
+					}
+					else if($("#P").attr("value") == "1")
+					{
+						$("#P").fadeIn(500);
+					}
+					else
+					{
+						$("#P").attr("src","pic.png");
+						$("#P").fadeIn(500);
+					}
+				});
+			});					
+
+			$("#Q").click(function(){
+				$("#Q").attr("src","Q.jpg");
+				$("#Q").fadeOut(500,function(){
+					var data = $("#Q").attr("value");
+					var Q = data.charCodeAt(data);
+					data = Q - 1;
+					if((current == data))
+					{
+						current = Q;
+						$("#Q").fadeIn(500);
+						$("#Q").attr("value","1");
+					}
+					else if($("#Q").attr("value") == "1")
+					{
+						$("#Q").fadeIn(500);
+					}
+					else
+					{
+						$("#Q").attr("src","pic.png");
+						$("#Q").fadeIn(500);
+					}
+				});
+			});
+
+			$("#R").click(function(){
+				$("#R").attr("src","R.jpg");
+				$("#R").fadeOut(500,function(){
+					var data = $("#R").attr("value");
+					var R = data.charCodeAt(data);
+					data = R - 1;
+					if((current == data))
+					{
+						current = R;
+						$("#R").fadeIn(500);
+						$("#R").attr("value","1");
+					}
+					else if($("#R").attr("value") == "1")
+					{
+						$("#R").fadeIn(500);
+					}
+					else
+					{
+						$("#R").attr("src","pic.png");
+						$("#R").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#S").click(function(){
+				$("#S").attr("src","S.jpg");
+				$("#S").fadeOut(500,function(){
+					var data = $("#S").attr("value");
+					var S = data.charCodeAt(data);
+					data = S - 1;
+					if((current == data))
+					{
+						current = S;
+						$("#S").fadeIn(500);
+						$("#S").attr("value","1");
+					}
+					else if($("#S").attr("value") == "1")
+					{
+						$("#S").fadeIn(500);
+					}
+					else
+					{
+						$("#S").attr("src","pic.png");
+						$("#S").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#T").click(function(){
+				$("#T").attr("src","T.jpg");
+				$("#T").fadeOut(500,function(){
+					var data = $("#T").attr("value");
+					var T = data.charCodeAt(data);
+					data = T - 1;
+					if((current == data))
+					{
+						current = T;
+						$("#T").fadeIn(500);
+						$("#T").attr("value","1");
+					}
+					else if($("#T").attr("value") == "1")
+					{
+						$("#T").fadeIn(500);
+					}
+					else
+					{
+						$("#T").attr("src","pic.png");
+						$("#T").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#U").click(function(){
+				$("#U").attr("src","U.jpg");
+				$("#U").fadeOut(500,function(){
+					var data = $("#U").attr("value");
+					var U = data.charCodeAt(data);
+					data = U - 1;
+					if((current == data))
+					{
+						current = U;
+						$("#U").fadeIn(500);
+						$("#U").attr("value","1");
+					}
+					else if($("#U").attr("value") == "1")
+					{
+						$("#U").fadeIn(500);
+					}
+					else
+					{
+						$("#U").attr("src","pic.png");
+						$("#U").fadeIn(500);
+					}
+				});
+			});	
+
+				$("#V").click(function(){
+				$("#V").attr("src","V.jpg");
+				$("#V").fadeOut(500,function(){
+					var data = $("#V").attr("value");
+					var V = data.charCodeAt(data);
+					data = V - 1;
+					if((current == data))
+					{
+						current = V;
+						$("#V").fadeIn(500);
+						$("#V").attr("value","1");
+					}
+					else if($("#V").attr("value") == "1")
+					{
+						$("#V").fadeIn(500);
+					}
+					else
+					{
+						$("#V").attr("src","pic.png");
+						$("#V").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#W").click(function(){
+				$("#W").attr("src","W.jpg");
+				$("#W").fadeOut(500,function(){
+					var data = $("#W").attr("value");
+					var W = data.charCodeAt(data);
+					data = W - 1;
+					if((current == data))
+					{
+						current = W;
+						$("#W").fadeIn(500);
+						$("#W").attr("value","1");
+					}
+					else if($("#W").attr("value") == "1")
+					{
+						$("#W").fadeIn(500);
+					}
+					else
+					{
+						$("#W").attr("src","pic.png");
+						$("#W").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#X").click(function(){
+				$("#X").attr("src","X.jpg");
+				$("#X").fadeOut(500,function(){
+					var data = $("#X").attr("value");
+					var X = data.charCodeAt(data);
+					data = X - 1;
+					if((current == data))
+					{
+						current = X;
+						$("#X").fadeIn(500);
+						$("#X").attr("value","1");
+					}
+					else if($("#X").attr("value") == "1")
+					{
+						$("#X").fadeIn(500);
+					}
+					else
+					{
+						$("#X").attr("src","pic.png");
+						$("#X").fadeIn(500);
+					}
+				});
+			});	
+
+			$("#Y").click(function(){
+				$("#Y").attr("src","Y.jpg");
+				$("#Y").fadeOut(500,function(){
+					var data = $("#Y").attr("value");
+					var Y = data.charCodeAt(data);
+					data = Y - 1;
+					if((current == data))
+					{
+						current = Y;
+						$("#Y").fadeIn(500);
+						$("#Y").attr("value","1");
+					}
+					else if($("#Y").attr("value") == "1")
+					{
+						$("#Y").fadeIn(500);
+					}
+					else
+					{
+						$("#Y").attr("src","pic.png");
+						$("#Y").fadeIn(500);
+					}
+				});
+			});	
+
+
+		});
+	</script>
+	<body>
+			<div id = "con">
+				<p> Whats next ? </p>	
+			</div>
+			<img id = "A" src="A.jpg" value="A"/>
+			<img id = "B" src="pic.png" value ="B"></img>
+			<img id = "C" src="pic.png" value ="C"></img>
+			<img id = "D" src="pic.png" value ="D"></img>
+			<img id = "E" src="pic.png" value ="E"></img>
+			<img id = "F" src="pic.png" value ="F"></img>
+			<img id = "G" src="pic.png" value ="G"></img>
+			<img id = "H" src="pic.png" value ="H"></img>
+			<img id = "I" src="pic.png" value ="I"></img>
+			<img id = "J" src="pic.png" value ="J"></img>
+			<img id = "K" src="pic.png" value ="K"></img>
+			<img id = "L" src="pic.png" value ="L"></img>
+			<img id = "M" src="pic.png" value ="M"></img>
+			<img id = "N" src="pic.png" value ="N"></img>
+			<img id = "O" src="pic.png" value ="O"></img>
+			<img id = "P" src="pic.png" value ="P"></img>
+			<img id = "Q" src="pic.png" value ="Q"></img>
+			<img id = "R" src="pic.png" value ="R"></img>
+			<img id = "S" src="pic.png" value ="S"></img>
+			<img id = "T" src="pic.png" value ="T"></img>
+			<img id = "U" src="pic.png" value ="U"></img>
+			<img id = "V" src="pic.png" value ="V"></img>
+			<img id = "W" src="pic.png" value ="W"></img>
+			<img id = "X" src="pic.png" value ="X"></img>
+			<img id = "Y" src="pic.png" value ="Y"></img>
+			<img id = "Z" src="Z.jpg" value ="Z"></img>
+			
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<style type="text/css">
+	body{
+		width :200px;
+		height: 200px;
+	}
+	#divone{
+		position: fixed;
+		width: 100px;
+		height: 100px;
+		background-color: #DAF7A6;
+		left: 30px;
+		top: 20px; 
+		bottom: 50px;
+	}
+	#divtwo{
+		position: fixed;
+		width: 100px;
+		height: 100px;
+		background-color: #FF5733  ;
+		top: 150px;	
+		left: 30px;
+	}
+	.block{
+		width: 900px;
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	</style>
+</head>
+<body>
+	<div class  = "block">
+		<div id = "divone">
+		</div> 
+		
+		<div id = "divtwo"> 
+		</div>
+	</div>
+</body>
+<script src="E:\JQpractice\jquery-3.2.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#divone").click(function(){
+				for(var i = 1 ; i <= 5 ; i++)
+				{
+					$("#divone").fadeOut(2000);
+					$("#divone").fadeIn(2000);
+				}
+			});
+			$("#divtwo").click(function(){
+				$("#divtwo").fadeOut(1000);
+				$("#divtwo").fadeIn(1000);
+			});
+		});
+
+	</script>
+</html>
